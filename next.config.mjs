@@ -12,12 +12,13 @@ const nextConfig = {
       },
     ],
   },
-    experimental: {
-      serverActions: {
-        enabled: true
-      }
-    },
-    turbopack: {},
+  experimental: {
+    serverActions: {
+      enabled: true
+    }
+  },
+  turbopack: {},
+  output: 'standalone',
 };
 
 export default nextConfig;
